@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>Антивирусные программы, которые осуществляют поиск характерной для конкретного вируса последовательности байтов в оперативной памяти и файлах и при обнаружении выдают соответствующее сообщение – это:</Text>
+  <Type>Standart</Type>
+  <Answers>
+    
+    <Answer>
+      <Text>Программы-детекторы</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Программы-загрузчики</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+<Answer>
+      <Text>Программы-ревизоры</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+<Answer>
+      <Text>Программы-фильтры</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+  </Answers>
+</Question>

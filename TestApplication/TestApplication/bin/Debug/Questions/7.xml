@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>Текстовый или графический условный элемент гипертекстового документа, который связан, с целью перехода по нему, с другим отдельным элементом этого документа или любым другим файлом, находящимся как на этом же ресурсе, так и на любом другом постороннем ресурсе - это:</Text>
+  <Type>Standart</Type>
+  <Answers>
+  <Answer>
+      <Text>Абзац</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Заголовок</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+    <Answer>
+      <Text>Страница</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+    <Answer>
+      <Text>Гиперссылка</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+  </Answers>
+</Question>
