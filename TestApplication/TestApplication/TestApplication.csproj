@@ -59,6 +59,7 @@
     <Compile Include="Question.cs" />
     <Compile Include="QuestionDataBase.cs" />
     <Compile Include="Serializator.cs" />
+    <Compile Include="Service\MathHelper.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
