@@ -1,4 +1,10 @@
-﻿namespace TestApplication
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TestApplication
 {
     [System.Serializable]
     public class Answer
@@ -9,6 +15,7 @@
 
         public Answer()
         {
+
         }
 
         public Answer(string Text, bool IsCorrect = false)

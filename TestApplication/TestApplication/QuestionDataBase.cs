@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace TestApplication
@@ -36,7 +37,7 @@ namespace TestApplication
             List<Question> questions = new List<Question>();
             DirectoryInfo directory = new DirectoryInfo(QuestionDirectory);
 
-            foreach (var file in directory.GetFiles("*.xml"))
+            foreach(var file in directory.GetFiles("*.xml"))
             {
                 Question question = Serializator.Deserialization<Question>(file.FullName);
 

@@ -1,5 +1,6 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
 using System.ComponentModel;
+using System.Collections.ObjectModel;
 
 namespace TestApplication.ViewModels
 {
