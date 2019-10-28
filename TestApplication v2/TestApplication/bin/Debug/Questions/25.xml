@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>Какой алгоритм называется линейным:</Text>
+  <Type>Standart</Type>
+  <Answers>
+    
+    <Answer>
+      <Text>Выполнение операций зависит от условия</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Операции выполняются друг за другом</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Одни и те же операции выполняются многократно</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Присутствие всех возможных операций в одном алгоритме</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+  </Answers>
+</Question>

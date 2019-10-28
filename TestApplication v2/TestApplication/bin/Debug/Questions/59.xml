@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>Антивирусные программы, которые лечат зараженные вирусами файлы, т.е. удаляют из файла тело программы вируса, возвращая файлы в исходное состояние – это:</Text>
+  <Type>Standart</Type>
+  <Answers>
+    
+    <Answer>
+      <Text>Программы-детекторы</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Программы-доктора</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+<Answer>
+      <Text>Программы-загрузчики</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+<Answer>
+      <Text>Программы-фильтры</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+  </Answers>
+</Question>

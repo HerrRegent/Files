@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>Право собственности состоит из трех важных компонентов (несколько вариантов ответа):</Text>
+  <Type>Standart</Type>
+  <Answers>
+    <Answer>
+      <Text>Право владения</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Право распоряжения</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+    <Answer>
+      <Text>Право передачи</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Право пользования</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Право создания</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+  </Answers>
+</Question>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>Файл, организованный специальным образом, содержащий в себе один или несколько файлов в сжатом или несжатом виде, служебную информацию об именах файлов, дате и времени их создания или модификации, размерах и т.п. – это:</Text>
+  <Type>Standart</Type>
+  <Answers>
+    
+    <Answer>
+      <Text>Текстовый файл</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Информационный файл</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Архивный файл</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Графический файл</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+  </Answers>
+</Question>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>По величине вредных воздействий вирусы можно подразделить на… (несколько вариантов ответа):</Text>
+  <Type>Standart</Type>
+  <Answers>
+    
+    <Answer>
+      <Text>Опасные</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Неопасные</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Простые</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Сложные</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+<Answer>
+      <Text>Очень опасные</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+<Answer>
+      <Text>Медленные</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+<Answer>
+      <Text>Быстрые</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+  </Answers>
+</Question>

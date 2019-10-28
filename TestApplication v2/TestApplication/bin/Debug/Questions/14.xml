@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>Система счисления, в которой вес каждой цифры не зависит от ее позиции в записи числа – это:</Text>
+  <Type>Standart</Type>
+  <Answers>
+    
+    <Answer>
+      <Text>Позиционная СС</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Непозиционная СС</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Двоичная СС</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Антипозиционная СС</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+  </Answers>
+</Question>

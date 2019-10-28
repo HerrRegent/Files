@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Question xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>Процесс преобразования сигналов или знаков одной знаковой системы в знаки другой знаковой системы, для использования, хранения, передачи или обработки – это:</Text>
+  <Type>Standart</Type>
+  <Answers>
+    <Answer>
+      <Text>Шифрование</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Формализация</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Декодирование</Text>
+      <IsCorrect>false</IsCorrect>
+    </Answer>
+	<Answer>
+      <Text>Кодирование</Text>
+      <IsCorrect>true</IsCorrect>
+    </Answer>
+  </Answers>
+</Question>
