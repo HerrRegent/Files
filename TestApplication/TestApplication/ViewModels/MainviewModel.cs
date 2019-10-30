@@ -1,14 +1,8 @@
-﻿using System;
-using System.ComponentModel;
-using System.Collections.ObjectModel;
-
-namespace TestApplication.ViewModels
+﻿namespace TestApplication.ViewModels
 {
-    public class MainViewModel : INotifyPropertyChanged
+    public class MainViewModel : ViewModel
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        public ObservableCollection<Question> Questions
+        public ViewModel CurrentPage
         {
             get;
             set;
@@ -16,17 +10,16 @@ namespace TestApplication.ViewModels
 
         public MainViewModel()
         {
-            Questions = new ObservableCollection<Question>(QuestionDataBase.GetQuestions());
-            Questions.CollectionChanged += (send, e) =>
-            {
-                PropertyChange(nameof(Questions));
-            };
-        }
+            var firstPage = new TestPageViewModel();
 
-        public void PropertyChange(string propertyName)
-        {
-            PropertyChangedEventArgs args = new PropertyChangedEventArgs(propertyName);
-            PropertyChanged?.Invoke(this, args);
+            firstPage.OnTestComplete += (result) =>
+            {
+                var secondPage = new ResultPageViewModel(result);
+                CurrentPage = secondPage;
+                PropertyChange(nameof(CurrentPage));
+            };
+
+            CurrentPage = firstPage;
         }
     }
 }

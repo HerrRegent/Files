@@ -4,44 +4,26 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TestApplication"
+        xmlns:pagesVM ="clr-namespace:TestApplication.ViewModels"
+        xmlns:pages ="clr-namespace:TestApplication.Pages"
         mc:Ignorable="d"
         Title="Тест" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize">
-    <Grid>
+    <Grid Loaded="OnLoad" Background="#FFECECEC">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="158*"/>
-            <ColumnDefinition Width="401*"/>
-            <ColumnDefinition Width="75*"/>
-            <ColumnDefinition Width="159*"/>
+            <ColumnDefinition />
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <Grid Grid.Column="0" Grid.ColumnSpan="1">
-            <TextBlock Margin="5 40" FontSize="18">Критерии оценивания<LineBreak/>Зачетного Тестирования<LineBreak/>51-60 - отлично(оценка 5)<LineBreak/>41-50 - хорошо(оценка 4)<LineBreak/>30-40 - удовл.(оценка 3)<LineBreak/>30-0 - плохо(оценка 2)</TextBlock>
-        </Grid>
-        <Grid Grid.Column="3" Grid.ColumnSpan="1">
-            <StackPanel>
-                <TextBlock Text="Ваша оценка:" Margin="5 40" FontSize="18"></TextBlock>
-            <Button Height="30" Margin="5 10" Content="Завершить тест" VerticalAlignment="Top" FontSize="18"/>
-            </StackPanel>
-        </Grid>
-        <ScrollViewer Grid.Column="1" Grid.ColumnSpan="2">
-            
-            <ItemsControl  ItemsSource="{Binding Questions}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <Grid>
-                            <StackPanel>
-                                <TextBlock Text="{Binding Text}" TextWrapping="Wrap" Margin="0 20"  FontSize="20" />
-                                <ItemsControl ItemsSource="{Binding Answers}">
-                                    <ItemsControl.ItemTemplate>
-                                        <DataTemplate>
-                                            <CheckBox Content="{Binding Text}" IsChecked="{Binding ActualValue, Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}" FontSize="17" Margin="0 3"></CheckBox>
-                                        </DataTemplate>
-                                    </ItemsControl.ItemTemplate>
-                                </ItemsControl>
-                            </StackPanel>
-                        </Grid>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </ScrollViewer>
+
+        <UserControl Grid.Column="1" Content="{Binding CurrentPage}">
+            <UserControl.Resources>
+                <DataTemplate DataType="{x:Type pagesVM:TestPageViewModel}">
+                    <pages:TestPage DataContext="{Binding}" />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type pagesVM:ResultPageViewModel}">
+                    <pages:ResultPage DataContext="{Binding}" />
+                </DataTemplate>
+            </UserControl.Resources>
+        </UserControl>
     </Grid>
 </Window>

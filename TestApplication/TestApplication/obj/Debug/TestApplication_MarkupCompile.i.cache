@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-X:\TestApplication\TestApplication\obj\Debug\
+C:\Users\User\source\repos\Test\TestApplication\TestApplication\obj\Debug\
 TestApplication
 none
 false
 DEBUG;TRACE
-X:\TestApplication\TestApplication\App.xaml
-11151548125
+C:\Users\User\source\repos\Test\TestApplication\TestApplication\App.xaml
+3631699207
 
-11-1945449399
+181406951528
 13-1505183044
-MainWindow.xaml;
+MainWindow.xaml;Pages\ResultPage.xaml;Pages\TestPage.xaml;
 
 True
 

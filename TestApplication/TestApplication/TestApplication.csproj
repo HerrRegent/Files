@@ -56,10 +56,21 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Answer.cs" />
+    <Compile Include="Pages\ResultPage.xaml.cs">
+      <DependentUpon>ResultPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TestPage.xaml.cs">
+      <DependentUpon>TestPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Question.cs" />
     <Compile Include="QuestionDataBase.cs" />
+    <Compile Include="RelayCommand.cs" />
     <Compile Include="Serializator.cs" />
+    <Compile Include="Service\MathHelper.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\ResultPageViewModel.cs" />
+    <Compile Include="ViewModels\TestPageViewModel.cs" />
+    <Compile Include="ViewModels\ViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -72,6 +83,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\ResultPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\TestPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
